@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NEUtral Fact Checker</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #FFFBDD;
+      width: 350px;
+      height: 580px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    h2 {
+      text-align: center;
+      font-family: "Montserrat", sans-serif;
+      font-size: 36px;
+    }
+    #logo {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+    }
+    #currentDateTime {
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: #3A8C38;
+    }
+    #statement {
+      width: calc(100% - 24px);
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    #checkButton {
+      width: 100%;
+      padding: 10px;
+      background-color: #3A8C38;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    #checkButton:hover {
+      background-color: #275e26;
+    }
+    #result {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f3e57fa6;
+      border: 1px solid #f3e57f;
+      border-radius: 4px;
+      font-weight: bold;
+      color: #3A8C38;
+    }
+    #preresult {
+      text-align: center;
+    }
+    #result a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+    #result img {
+      display: block;
+      margin: 10px auto;
+      max-width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <img id="logo" src="images/logo.png" alt="NEUtral Logo">
+  <div id="currentDateTime"></div>
+  <input type="text" id="statement" placeholder="Enter your statement">
+  <button id="checkButton">Check</button>
+  <div id="result"><p id="preresult">Results will show Here</p></div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
