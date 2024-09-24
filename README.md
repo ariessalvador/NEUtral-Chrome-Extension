@@ -1,8 +1,8 @@
-# FactCheckChromeExt
+# NEUtral
 
 ## Overview
 
-FactCheckChromeExt is a Chrome extension designed to verify the credibility of information found online. The extension provides users with quick access to fact-checking resources and tools directly within their browser.
+NEUtral is a Chrome extension designed to verify the credibility of information found online. The extension provides users with quick access to fact-checking resources and tools directly within their browser.
 
 ## Features
 
